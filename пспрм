@@ -1,0 +1,45 @@
+yml_catalog: 
+ shop: 
+  name: "МедЭксперт"
+  company: "ООО МедЭксперт"
+  url: "https://med-expert-group.ru/"
+  email: "medexpertdoc@mail.ru"
+  picture: "https://optim.tildacdn.com/tild3364-3764-4431-b563-343862316631/-/resize/207x/-/format/webp/1_1.png"
+  description: "Каталог врачей"
+  currencies: 
+   currency: 
+    _id: RUR
+    _rate: 1
+  categories: 
+   category: 
+    _id: 1
+    __text: "Врач"
+    toString: 
+  sets: 
+   set: 
+    - 
+   name: "Проктолог"
+     url: "https://doctors.sample.s3.yandex.net/terapevt"
+     _id: proktolog
+    - 
+   name: "Колопроктолог"
+     url: "https://med-expert-group.ru/doctors"
+     _id: koloproktolog
+  offers: 
+   offer: 
+    name: "Сотников Василий Михайлович"
+    url: "https://med-expert-group.ru/doctors"
+    price: 
+     _from: true
+     __text: 2200
+     toString: 
+    oldprice: 3000
+    currencyId: RUR
+    sales_notes: "Первичный прием"
+    "set-ids": "proktolog, koloproktolog"
+    picture: ""
+    description: ""
+    categoryId: 1
+    _id: vrach129
+    _group_id: 94726
+ _date: "2021-07-17 12:10"
