@@ -1,0 +1,51 @@
+yml_catalog:
+  shop:
+    name: Сэмпл.Врачи
+    company: ООО Сэмпл.Врачи
+    url: https://doctors.sample.s3.yandex.net
+    email: support-doctors@doctors.sample.s3.yandex.net
+    picture: >-
+      https://avatars.mds.yandex.net/get-pdb/5679262/13d16a0c-27e9-4095-8f55-accdc2d7c8f0/s1200
+    description: Каталог врачей
+    currencies:
+      currency: ''
+    categories:
+      category: Врач
+    sets:
+      set:
+        - name: Проктолог
+          url: https://doctors.sample.s3.yandex.net/terapevt
+        - name: Колопроктолог
+          url: https://doctors.sample.s3.yandex.net/khirurg
+    offers:
+      offer:
+        name: Сотнтков Василий Михайлович
+        price: 2200
+        oldprice: 2200
+        currencyId: RUR
+        sales_notes: Первичный прием
+        set-ids: proktolog, koloproktolog
+        picture: >-
+          https://yandex.ru/images/search?rpt=simage&noreask=1&source=qa&text=Сотников+Василий+Михайлович+проктолог&img_url=https%3A//static-1.napopravku.ru/upload/iblock/lg0/dxg/lg0dxgux0lq6lhnrei0urgw4zq2qtzhtpk54jcbw.jpg
+        categoryId: 1
+        param:
+          - Сотников
+          - Василий
+          - Михайлович
+          - 13
+          - '2011-01-01'
+          - г. Евпатория
+          - true
+          - Кандидат наук
+          - г. Евпатория
+          - ул. Крупской, д. 42В
+          - Медицинский центр «МедЭксперт»
+          - true
+          - true
+          - 89785764888
+          - Самарский государственный медицинский университет
+          - 2011
+          - Базовое образование
+          - Лечебное дело
+          - ГБУЗ СМКЦ ФМБА России
+          - 2015-2015
