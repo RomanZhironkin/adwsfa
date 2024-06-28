@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<yml_catalog date="2021-07-17 12:10">
+    <shop>
+        <name>МедЭксперт</name>
+        <company>ООО МедЭксперт</company>
+        <url>https://med-expert-group.ru/</url>
+        <email>medexpertdoc@mail.ru</email>
+        <picture>https://optim.tildacdn.com/tild3364-3764-4431-b563-343862316631/-/resize/231x/-/format/webp/1_1.png</picture>
+        <description>Каталог врачей</description>
+        <currencies>
+          <currency id="RUR" rate="1" />
+        </currencies>
+        <categories>
+            <category id="1">Врач</category>
+        </categories>
+
+        <sets>
+            <set id="proktolog">
+                <name>Проктолог</name>
+                <url>https://med-expert-group.ru/doctors</url>
+            </set>
+            <set id="koloproktolog">
+                <name>Колопроктолог</name>
+                <url>https://med-expert-group.ru/doctors</url>
+            </set>
+        </sets>
+        <offers>
+            <!--
+                Оффер для врача - это связка "Врач"-"Клиника"-"Тип приема".
+                При наличии у врача нескольких офферов нужно предоставить каждый из них отдельно.
+                В таком случае URL разных офферов одного врача должны различаться незначащим cgi-параметром ?offer-id=...
+
+            -->
+            <!--group_id - уникальный идентификтаор врача. нужен при наличии разных URL у одного человека. Целое число, не более 9 знаков-->
+            <offer id="vrach129" group_id="94726"> 
+                <name>Сотников Василий Михайлович</name> <!--ФИО, именно в таком порядке-->
+                <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
+                <url>https://med-expert-group.ru/doctors</url><!--URL карточки врача. -->
+                <price from="true">2200</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <oldprice>3000</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
+                <currencyId>RUR</currencyId>
+                <sales_notes>Первичный прием</sales_notes>
+                <set-ids>proktolog, koloproktolog</set-ids> <!--специальности через запятую-->
+                <picture>https://optim.tildacdn.com/tild3364-3764-4431-b563-343862316631/-/resize/231x/-/format/webp/1_1.png</picture>
+                <description>Владеет основными методами лечения, в том числе хмрургические вмешательства.</description>
+                <categoryId>1</categoryId>
+                <!--Пустых блоков param быть не должно. Если необязательное поле не заполнено, его нужно исключить из фида-->
+                <param name="Фамилия">Сотников</param>
+                <param name="Имя">Василий</param>
+                <param name="Отчество">Михайлович</param>
+                <param name="Годы опыта">13</param>
+                <param name="Начало карьеры">2011-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
+                <param name="Город">г. Евпатория</param>
+                <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
+                <param name="Степень">Кандидат наук</param>
+                <param name="Ссылка на профиль врача">https://prodoctorov.ru/evpatoria/vrach/234195-sotnikov/</param>
+                <param name="Город клиники">г. Евпатория</param>
+                <param name="Адрес клиники">ул. Крупской, д. 42В</param>
+                <param name="Название клиники">МедЭксперт</param>
+                <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
+                <param name="Онлайн-расписание">true</param>
+                <param name="Телефон для записи">79785764888</param> <!--Можно подменник аггрегатора-->
+                <param name="Образование - 1" unit="Организация">Самарский государственный медицинский университет</param>
+                <param name="Образование - 1" unit="Дата">2011</param>
+                <param name="Образование - 1" unit="Название">Базовое образование</param>
+                <param name="Образование - 1" unit="Специальность">Лечебное дело</param>
+                <param name="Место работы - 1" unit="Организация">ГБУЗ СМКЦ ФМБА России</param>
+                <param name="Место работы - 1" unit="Дата">2015-2025</param>
+            </offer>
+        </offers>
+    </shop>
+</yml_catalog>
