@@ -1,0 +1,136 @@
+yml_catalog: 
+ shop: 
+  name: "МедЭксперт"
+  company: "ООО МедЭксперт"
+  url: "https://med-expert-group.ru/"
+  email: "medexpertdoc@mail.ru"
+  picture: "https://optim.tildacdn.com/tild3364-3764-4431-b563-343862316631/-/resize/231x/-/format/webp/1_1.png"
+  description: "Каталог врачей"
+  currencies: 
+   currency: 
+    _id: RUR
+    _rate: 1
+  categories: 
+   category: 
+    _id: 1
+    __text: "Врач"
+    toString: 
+  sets: 
+   set: 
+    - 
+   name: "Проктолог"
+     url: "https://med-expert-group.ru/doctors"
+     _id: proktolog
+    - 
+   name: "Колопроктолог"
+     url: "https://med-expert-group.ru/doctors"
+     _id: koloproktolog
+  offers: 
+   offer: 
+    name: "Сотников Василий Михайлович"
+    url: "https://med-expert-group.ru/doctors"
+    price: 
+     _from: true
+     __text: 2200
+     toString: 
+    oldprice: 3000
+    currencyId: RUR
+    sales_notes: "Первичный прием"
+    "set-ids": "proktolog, koloproktolog"
+    picture: "https://optim.tildacdn.com/tild3364-3764-4431-b563-343862316631/-/resize/231x/-/format/webp/1_1.png"
+    description: "Владеет основными методами лечения, в том числе хмрургические вмешательства."
+    categoryId: 1
+    param: 
+     - 
+   _name: "Фамилия"
+      __text: "Сотников"
+      toString: 
+     - 
+   _name: "Имя"
+      __text: "Василий"
+      toString: 
+     - 
+   _name: "Отчество"
+      __text: "Михайлович"
+      toString: 
+     - 
+   _name: "Годы опыта"
+      __text: 13
+      toString: 
+     - 
+   _name: "Начало карьеры"
+      __text: "2011-01-01"
+      toString: 
+     - 
+   _name: "Город"
+      __text: "г. Евпатория"
+      toString: 
+     - 
+   _name: "Взрослый врач"
+      __text: true
+      toString: 
+     - 
+   _name: "Степень"
+      __text: "Кандидат наук"
+      toString: 
+     - 
+   _name: "Ссылка на профиль врача"
+      __text: "https://prodoctorov.ru/evpatoria/vrach/234195-sotnikov/"
+      toString: 
+     - 
+   _name: "Город клиники"
+      __text: "г. Евпатория"
+      toString: 
+     - 
+   _name: "Адрес клиники"
+      __text: "ул. Крупской, д. 42В"
+      toString: 
+     - 
+   _name: "Название клиники"
+      __text: "МедЭксперт"
+      toString: 
+     - 
+   _name: "Возможность записи"
+      __text: true
+      toString: 
+     - 
+   _name: "Онлайн-расписание"
+      __text: true
+      toString: 
+     - 
+   _name: "Телефон для записи"
+      __text: 79785764888
+      toString: 
+     - 
+   _name: "Образование - 1"
+      _unit: "Организация"
+      __text: "Самарский государственный медицинский университет"
+      toString: 
+     - 
+   _name: "Образование - 1"
+      _unit: "Дата"
+      __text: 2011
+      toString: 
+     - 
+   _name: "Образование - 1"
+      _unit: "Название"
+      __text: "Базовое образование"
+      toString: 
+     - 
+   _name: "Образование - 1"
+      _unit: "Специальность"
+      __text: "Лечебное дело"
+      toString: 
+     - 
+   _name: "Место работы - 1"
+      _unit: "Организация"
+      __text: "ГБУЗ СМКЦ ФМБА России"
+      toString: 
+     - 
+   _name: "Место работы - 1"
+      _unit: "Дата"
+      __text: "2015-2025"
+      toString: 
+    _id: vrach129
+    _group_id: 94726
+ _date: "2021-07-17 12:10"
