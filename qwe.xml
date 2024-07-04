@@ -41,7 +41,7 @@
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
                 <set-ids>proktolog, koloproktolog</set-ids> <!--специальности через запятую-->
-                <picture>https://optim.tildacdn.com/tild3364-3764-4431-b563-343862316631/-/resize/231x/-/format/webp/1_1.png</picture>
+                <picture>https://static.tildacdn.com/tild3936-3465-4135-b830-653335616330/_WhatsApp_2024_03_12.jpg</picture>
                 <description>Владеет основными методами лечения, в том числе хмрургические вмешательства.</description>
                 <categoryId>1</categoryId>
                 <!--Пустых блоков param быть не должно. Если необязательное поле не заполнено, его нужно исключить из фида-->
